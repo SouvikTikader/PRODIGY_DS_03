@@ -61,7 +61,7 @@ plt.title("Confusion Matrix")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.tight_layout()
-plt.savefig(f"{output_dir}/confusion_matrix.png",bbox_inches='tight')
+plt.savefig(f"{output_dir}/confusion_matrix.png",dpi=300,bbox_inches='tight')
 plt.close()
 
 
