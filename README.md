@@ -77,23 +77,6 @@ python bank_term_prediction.py
 
 > Make sure `bank_full.csv` is in the same directory as the script.
 
----
-
-## 📝 Output
-
-```
-Label mapping for y: ['no' 'yes']
-Model Accuracy: 0.89
-
-Confusion Matrix:
-[[7644  308]
- [ 655  436]]
-
-Classification Report:
-              precision    recall  f1-score   support
-           0       0.92       0.96      0.94      7952
-           1       0.59       0.40      0.48      1091
-```
 
 ---
 
