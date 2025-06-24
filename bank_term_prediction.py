@@ -54,8 +54,7 @@ print("\nClassification Report:\n", classification_report(y_test, y_pred))
 
 # Plot Confusion Matrix
 plt.figure(figsize=(6, 4))
-sns.heatmap(confusion_matrix(y_test, y_pred), annot=True, fmt='d', cmap='Blues',
-            xticklabels=["No", "Yes"], yticklabels=["No", "Yes"])
+sns.heatmap(confusion_matrix(y_test, y_pred), annot=True, fmt='d', cmap='Blues',xticklabels=["No", "Yes"], yticklabels=["No", "Yes"])
 plt.title("Confusion Matrix")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
