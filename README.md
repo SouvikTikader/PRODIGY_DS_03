@@ -59,7 +59,7 @@ All visualizations are saved under the `images/` directory:
 ### 1. Clone this Repository
 
 ```bash
-git clone https://github.com/YourUsername/PRODIGY_DS_03.git
+git clone https://github.com/SouvikTikader/PRODIGY_DS_03.git
 cd PRODIGY_DS_03
 ```
 
